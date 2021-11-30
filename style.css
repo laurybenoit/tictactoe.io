@@ -1,42 +1,69 @@
-body{
+body {
+    background-color: whitesmoke;
     font-family: 'Bungee', cursive;
     text-overflow: ellipsis;
     text-align: start;
+    color: rgb(207, 13, 13);
 }
+    
+ 
 h1{
     font-family: 'Bungee Outline', cursive;
-    font-size: 75px;
+    font-size: 85px;
     text-align: center;
+    color: rgb(207, 13, 13);
+        
     
-
 }
 
-.boardgame{
+h4{
+    font-family: 'Bungee', cursive;
+    text-overflow: ellipsis;
+    text-align: center;
+    color:rgb(207, 13, 13);
+}
+    
+    
+.flex-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex-wrap {
     flex-wrap: wrap;
-    width: 500px;
-    /* border: px; */
-    margin: 50px auto;
-    align-content: center;
+    height: 432px;
+    width: 432px;
+}
     
+    
+.cell {
+    background-color: whitesmoke;
+    border: 2px solid rgb(207, 13, 13);
+    height: 140px;
+    width: 140px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.cell{
-    width: 164px;
-    height: 164px;
-    border: 1px solid;
-    cursor: pointer;
-    line-height: 100px;
-    font-size: 60px;
-    background-color:cadetblue;
-}
-.gamestatus{
+    
+    
+#newgame {
+
     font-family: 'Bungee', cursive;
     font-size: 15px;
     text-align: center;
     align-items: center;
-}
-.center{
-    border: 3px solid rgb(66, 78, 66);
-    font-size: x-large;
+    font-size: 20px;
+    border: 1px solid rgb(207, 13, 13);
+    height: 75px;
+    width: 100px;
+    margin: 10px;
 }
